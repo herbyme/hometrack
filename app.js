@@ -145,6 +145,9 @@ const server = http.createServer((request, response) => {
         }));
       }
     });
+  } else if (method === 'GET' && url.startsWith('/ping')) { // For load balancer
+    response.statusCode = 200;
+    response.end();
   } else { // Give back status of non-existent end-point
     response.statusCode = 404;
     response.end();
