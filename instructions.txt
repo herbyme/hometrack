@@ -3,6 +3,8 @@ ssh -l ubuntu ec2-54-206-99-65.ap-southeast-2.compute.amazonaws.com
 ssh -l ubuntu ec2-54-252-245-187.ap-southeast-2.compute.amazonaws.com
 ssh -l ubuntu ec2-54-252-205-229.ap-southeast-2.compute.amazonaws.com
 
+password for ssh login: hometrackhy
+
 Commands to execute application in ubuntu account:
 > cd hometrack
 > nohup node app.js &
