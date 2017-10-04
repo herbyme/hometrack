@@ -1,0 +1,19 @@
+{
+  "name": "hometrack",
+  "version": "1.0.0",
+  "description": "Test code solution",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/herbyme/hometrack.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/herbyme/hometrack/issues"
+  },
+  "homepage": "https://github.com/herbyme/hometrack#readme"
+}
